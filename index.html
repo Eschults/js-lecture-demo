@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript Plugins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <ul id="repos" class="list-group"></ul>
+          <a href="#" data-next-page="2" id="next-link">Load next repos</a>
+          <textarea class="form-control" id="editor" rows="4"></textarea>
+          <div id="preview"></div>
+
+          <select class="select2" name="country">
+            <option value="AL">Alabama</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <script src="build/application.js"></script>
+  </body>
+</html>

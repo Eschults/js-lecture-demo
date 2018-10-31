@@ -1,0 +1,22 @@
+#editor, #preview, #repos {
+  margin-top: 20px;
+}
+
+#repos .list-group-item {
+  cursor: grab;
+}
+
+#repos .list-group-item:active {
+  cursor: grabbing;
+}
+
+#preview {
+  min-height: 94px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+#preview img {
+  max-width: 100%;
+}
